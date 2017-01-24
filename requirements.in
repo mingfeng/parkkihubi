@@ -15,5 +15,8 @@ djangorestframework
 djangorestframework-gis
 django-filter
 
+# REST API documentation
+drfdocs
+
 # Misc
 pytz

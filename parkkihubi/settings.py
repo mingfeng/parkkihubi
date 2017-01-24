@@ -77,6 +77,7 @@ INSTALLED_APPS = [
     'rest_framework_gis',
     'parkkihubi',
     'parkings',
+    'rest_framework_docs',
 ]
 
 if DEBUG:
@@ -162,6 +163,12 @@ REST_FRAMEWORK = {
     'TEST_REQUEST_DEFAULT_FORMAT': 'json',
 }
 
+##########################
+# REST API Documentation #
+##########################
+REST_FRAMEWORK_DOCS = {
+    'HIDE_DOCS': env.bool('HIDE_DRFDOCS', default=False),
+}
 
 ##############
 # Parkkihubi #
