@@ -16,7 +16,7 @@ djangorestframework-gis
 django-filter
 
 # REST API documentation
-drfdocs
+-e git+git://github.com/manosim/django-rest-framework-docs.git@6673ef2b48ba9f04a9fda226de916bea639db857#egg=drfdocs
 
 # Misc
 pytz

@@ -4,13 +4,13 @@
 #
 #    pip-compile --output-file requirements.txt requirements.in
 #
+-e git+git://github.com/manosim/django-rest-framework-docs.git@6673ef2b48ba9f04a9fda226de916bea639db857#egg=drfdocs
 contextlib2==0.5.3        # via raven
 django-environ==0.4.1
 django-filter==1.0.1
 django==1.10.3
 djangorestframework-gis==0.11
 djangorestframework==3.5.3
-drfdocs==0.0.11
 psycopg2==2.6.2
 pytz==2016.10
 raven==5.17.0
