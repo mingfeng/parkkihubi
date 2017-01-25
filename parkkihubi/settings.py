@@ -101,10 +101,12 @@ MIDDLEWARE_CLASSES = [
 #############
 # Templates #
 #############
+default_templates_dir = os.path.join(BASE_DIR, 'templates')
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [default_templates_dir, ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
